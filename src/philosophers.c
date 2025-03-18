@@ -17,6 +17,7 @@ void	setter(t_sim *simulation, char **av)
 	simulation->sleeping_time = ft_atoi(av[3]);
 	if (av[4])
 		simulation->eating_repetitions = ft_atoi(av[4]);
+	
 }
 
 void	start_simulation(t_sim *simulation)
